@@ -1,3 +1,52 @@
 body {
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
     background-color: white;
+    padding: 10px;
+    box-shadow: 10px 8px 6px -6px white;
+    border-style: double;
+     
+}
+.productTitle{
+    text-align: center;
+    border: solid lightblue 1px;
+    font-family: 'Bangers', cursive;
+
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 250px;
+
+}
+.description{
+    text-align: justify;
+   
+
+}
+
+.Available {
+    background-color: darkgrey;
+    color: yellow;
+}
+
+.pricing {
+    font-weight: bold ;
+    
+}
+
+.specification {
+    font-weight: bold
 }
