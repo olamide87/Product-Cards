@@ -1,11 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 body {
-    background-color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(8,8,86,1) 35%, rgba(0,212,255,1) 100%);
+}
+.title{
+    background-color: white;
+    text-align: center;
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
     width: 1100px;
+    justify-content: center;
+    margin: 0 auto;
 
 }
 
@@ -18,13 +30,26 @@ body {
     border-style: double;
      
 }
+
+.product:hover{
+    transform: scale(1.1);
+}
 .productTitle{
     text-align: center;
     border: solid lightblue 1px;
     font-family: 'Bangers', cursive;
 
 }
+.cardone{
+    position: relative;
+}
 
+.pic{
+    position: absolute;
+    top: 170px;
+    left:30px;
+
+}
 img {
     margin: 0 auto;
     display: block;
@@ -33,6 +58,7 @@ img {
 }
 .description{
     text-align: justify;
+   
    
 
 }
